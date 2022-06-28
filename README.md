@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TailwindCSS + DarkMode 
 This project is pre-configured with TailwindCSS and a Dark Mode Toggle Switch for using DarkMode with Tailwind (dark:) and in the near future css vars for easier dark/light and possible theming...
 
 ## Available Scripts
