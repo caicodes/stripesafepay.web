@@ -1,5 +1,5 @@
 import React from "react";
-import Toggle from "./components/themeToggle";
+import Toggle from "./theme/themeToggle";
 
 function App() {
   return (
@@ -9,7 +9,6 @@ function App() {
           Hello world!
           <Toggle />
         </div>
-        
       </div>
     </>
   );
