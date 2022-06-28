@@ -1,4 +1,4 @@
-# Decluttered Create React App Starter
+# Decluttered Create React App Starter with Tailwind and Darkmode Pre-configured
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
