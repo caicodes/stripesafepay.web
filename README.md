@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## TailwindCSS + DarkMode 
 This project is pre-configured with TailwindCSS and a Dark Mode Toggle Switch for using DarkMode with Tailwind (dark:) and in the near future css vars for easier dark/light and possible theming...
 
+<img src="img/stripesafepay-landing-dark.png" width="250"></img>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="img/stripesafepay-landing-light.png" width="250"></img>
+
 ## Available Scripts
 
 In the project directory, you can run:
