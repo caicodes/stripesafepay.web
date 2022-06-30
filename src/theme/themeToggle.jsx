@@ -5,7 +5,7 @@ const Toggle = () => {
   const { theme, setTheme } = React.useContext(ThemeContext);
 
   return (
-    <div>
+    <>
       {theme === 'dark' ? (
         <button
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
@@ -47,7 +47,7 @@ const Toggle = () => {
           </svg>
         </button>
       )}
-    </div>
+    </>
   );
 };
 

@@ -13,16 +13,43 @@ const NavBar = () => {
           </Link>
         </div>
         <nav className="flex items-center uppercase font-bold ">
-          <Link className="mx-5" to="/">Home</Link>
-          <Link className="mx-5" to="/about">About</Link>
-          <Link
-            to="/signup"
-            className="bg-blue-500 px-4 py-2 mx-5 rounded text-white"
-          >
-            Sign Up
-          </Link>
+          <button className="md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8 w-8 "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+
+          <div className="hidden md:inline ">
+            <Link className="mx-5" to="/">
+              Home
+            </Link>
+            <Link className="mx-5" to="/about">
+              About
+            </Link>
+            <Link
+              to="/signup"
+              className="bg-blue-500 px-4 py-2 mx-5 rounded text-white"
+            >
+              Sign Up
+            </Link>
+          </div>
+    
+          <div className="absolute  z-[2] top-20 right-3 md:right-6 transition-all duration-300 ">
           <Toggle />
-        </nav>
+        </div>
+            </nav>
+    
       </div>
     </div>
   );
