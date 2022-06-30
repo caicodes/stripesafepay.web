@@ -6,7 +6,7 @@ import Logo from "./Logo";
 const NavBar = () => {
   return (
     <div>
-      <div className="flex justify-between  text-center bg-blue-100 text-blue-500 dark:text-blue-400 dark:bg-blue-700 p-4 fixed w-full">
+      <div className="flex justify-between  text-center bg-blue-100 text-blue-500 dark:text-blue-400 dark:bg-blue-700 p-4 fixed w-full inset-x-0">
         <div className="flex">
           <Link className="text-3xl mr-20" to="/">
             <Logo />
